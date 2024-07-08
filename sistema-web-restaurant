@@ -1,0 +1,46 @@
+sistema-web-restaurante/
+├── backend/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── inventoryController.js
+│   │   ├── attendanceController.js
+│   │   ├── orderController.js
+│   │   └── selfServiceController.js
+│   ├── models/
+│   │   ├── user.js
+│   │   ├── product.js
+│   │   ├── attendance.js
+│   │   ├── order.js
+│   │   └── selfService.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── inventory.js
+│   │   ├── attendance.js
+│   │   ├── order.js
+│   │   └── selfService.js
+│   ├── config/
+│   │   └── database.js
+│   ├── .env
+│   ├── server.js
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.js
+│   │   │   ├── Sidebar.js
+│   │   │   ├── LoginForm.js
+│   │   │   └── Dashboard.js
+│   │   ├── pages/
+│   │   │   ├── LoginPage.js
+│   │   │   ├── DashboardPage.js
+│   │   │   ├── InventoryPage.js
+│   │   │   ├── AttendancePage.js
+│   │   │   ├── OrdersPage.js
+│   │   │   └── SelfServicePage.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── .env
+│   ├── package.json
+│   └── webpack.config.js
+├── README.md
