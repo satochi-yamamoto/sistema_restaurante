@@ -23,4 +23,5 @@ Este projeto é um sistema web para a gestão de um restaurante, incluindo contr
 ## Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sistema-web-restaurante.git
+   git clone https://github.com/ydsoftware1979/sistema_restaurante.git
+   
